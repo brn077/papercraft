@@ -129,7 +129,7 @@ fbq('track', 'PageView');
       </div>
       <p class="value-line">Se agrega a tu mismo pedido — no hace falta cargar los datos de nuevo.</p>
 
-      <a href="#" class="cta" id="otoCta">SÍ, QUIERO EL PACK PAPERCRAFT →</a>
+      <a href="https://checkoutkupfy.com/checkout/cmsddnb6n0k5301omvjqjpzex?offer=8ZEAB06" class="cta" id="otoCta">SÍ, QUIERO EL PACK PAPERCRAFT →</a>
       <p class="microcopy">📩 Se descarga junto con tus otros libros, al instante.</p>
       <div class="mini-trust-row">
         <span>🔒 Pago 100% seguro</span>
@@ -240,7 +240,7 @@ fbq('track', 'PageView');
         <div class="vs-row today"><span>Precio de hoy</span><span>$8.00</span></div>
       </div>
 
-      <a href="#" class="cta js-oto-cta" style="margin-top:24px;">SÍ, QUIERO EL PACK PAPERCRAFT →</a>
+      <a href="https://checkoutkupfy.com/checkout/cmsddnb6n0k5301omvjqjpzex?offer=8ZEAB06" class="cta js-oto-cta" style="margin-top:24px;">SÍ, QUIERO EL PACK PAPERCRAFT →</a>
       <p class="microcopy">🔒 Pago seguro · Acceso inmediato junto con tus otros libros</p>
 
       <div class="guarantee" style="margin-top:20px;">
@@ -308,11 +308,8 @@ fbq('track', 'PageView');
   })();
 
   document.querySelectorAll('#otoCta, .js-oto-cta').forEach(function(btn){
-    btn.addEventListener('click', function(e){
-      e.preventDefault();
+    btn.addEventListener('click', function(){
       if(typeof fbq === 'function'){ fbq('track', 'AddToCart', {content_name: 'Pack Papercraft'}); }
-      // 🔧 Reemplazá este alert por el link real de pago del Pack Papercraft cuando lo tengas creado.
-      alert('Acá va el link de pago del Pack Papercraft (todavía no configurado).');
     });
   });
 </script>
